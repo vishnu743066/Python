@@ -32,9 +32,11 @@ account_table = {
 
 
 #user tables 
+# enter your mails to send an emails to send message
+# enter your names also 
 users_table= {
-    12345: ["Vishnu Vardhan","VV743066@gmail.com",2500],
-    123456: ["vardhan","viralvishnu@gmail.com",1000]
+    12345: ["name1","your mail @gmail.com",2500],
+    123456: ["name2","your another @gmail.com",1000]
     }
 
 #transcation table
@@ -99,4 +101,5 @@ if __name__ == "__main__":
         else:
             lg.warning("User not found, please check with your login credentials")
             print("User not found, please check with your login credentials")
+
             break
