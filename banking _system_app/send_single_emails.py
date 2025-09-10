@@ -3,8 +3,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # sender details
-SENDER_EMAIL = "vv743066@gmail.com"
-SENDER_PASSWORD = "bxbz ytwf icae tmqe"
+SENDER_EMAIL = "vv@gmail.com"
+SENDER_PASSWORD = "xxxx xxxx xxxx"
 # configurations
 SMTP_SERVER = "smtp.gmail.com"   # <-- fix (lowercase smtp)
 SMTP_PORT = 587
@@ -26,3 +26,4 @@ def single_sender(to_email: str, subject: str, body: str = None):
         print(f"Email sent successfully to {to_email}")
     except Exception as e:
         print(f"Failed to send email to {to_email}. Error: {e}")
+
