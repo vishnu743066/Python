@@ -8,12 +8,13 @@ lg.basicConfig(
 
 #user tables 
 users_table= {
-    12345: ["Vishnu Vardhan","VV743066@gmail.com",2500],
-    123456: ["vardhan","viralvishnu@gmail.com",1000]
+    12345: ["name1","email1@gmail.com",2500],
+    123456: ["name2","email2@gmail.com",1000]
 }
 
 
 # history function
 def history(user_name):
     lg.info("User in history page")
+
     print("History function under developement process.....")
