@@ -8,8 +8,8 @@ lg.basicConfig(
 
 #user tables 
 users_table= {
-    12345: ["Vishnu Vardhan","VV743066@gmail.com",2500],
-    123456: ["vardhan","viralvishnu@gmail.com",1000]
+    12345: ["name 1","mail1@gmail.com",2500],
+    123456: ["name 2","mail2@gmail.com",1000]
 }
 
 
@@ -18,3 +18,4 @@ def exit_fun():
     lg.info("User in exit page")
     print("Sucessfully excuted, Thank you using codegnan online bank services ")
     return True
+
